@@ -1,6 +1,8 @@
-# Setup & running
+# TeNs Demo
 
-## Backend (requires JRE 11+ installed):
+## Setup & running
+
+### Backend (requires JRE 11+ installed):
 ```bash
 cd backend
 python -m venv venv && source venv/bin/activate
@@ -9,20 +11,20 @@ python -m spacy download ro_core_news_sm
 python app.py          # starts on :5000
 ```
 
-## Frontend:
+### Frontend:
 ```bash
 cd frontend
 npm install
 npm run dev            # starts on :3030
 ```
 
-## Both at once (from repo root):
+### Both at once (from repo root):
 ```bash
 npm install            # installs concurrently
 npm start
 ```
 
-# API
+## API
 
 GET /api/normalize?text=<romanian_text>
 
